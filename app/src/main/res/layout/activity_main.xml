@@ -4,64 +4,150 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/background">
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.75" />
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="137dp"
-        android:layout_height="34dp"
-        android:background="@color/colorPrimary"
+        android:id="@+id/Sewa_Tenda"
+        android:layout_width="186dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#7E000000"
         android:fontFamily="sans-serif-black"
-        android:text="Menu Sewa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline" />
+        android:onClick="healderSewaTenda"
+        android:text="Tenda"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.25" />
+        app:layout_constraintGuide_percent="0.18" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="310dp"
-        android:layout_height="95dp"
+        android:layout_width="241dp"
+        android:layout_height="42dp"
         android:fontFamily="sans-serif-black"
         android:text="Kedai Outdoor Shelter"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="36sp"
+        android:textColor="#050505"
+        android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_percent="0.2725061" />
+
+    <Button
+        android:id="@+id/Sewa_Carrier"
+        android:layout_width="186dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:background="#74000000"
+        android:fontFamily="sans-serif-black"
+        android:onClick="healderSewaCarrier"
+        android:text="Carrier"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/Sewa_Tenda" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.73" />
+
+    <Button
+        android:id="@+id/Sewa_Matras"
+        android:layout_width="187dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#83000000"
+        android:fontFamily="sans-serif-black"
+        android:onClick="healderMatras"
+        android:text="Matras"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/Sewa_Carrier" />
+
+    <Button
+        android:id="@+id/Sewa_Sleeping"
+        android:layout_width="188dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:background="#7E000000"
+        android:fontFamily="sans-serif-black"
+        android:onClick="healderSleepingBag"
+        android:text="Sleeping Bag"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/Sewa_Matras" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="MENU SEWA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="236dp"
-        android:layout_height="363dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        android:id="@+id/imageView4"
+        android:layout_width="75dp"
+        android:layout_height="67dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507"
+        app:srcCompat="@drawable/tribal_tent_with_small_triangles_icon_icons_com_70352" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="190dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:background="#83000000"
+        android:fontFamily="sans-serif-black"
+        android:onClick="healderExit"
+        android:text="EXIT"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/Sewa_Sleeping" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:srcCompat="@drawable/travel_holiday_vacation_321_89078" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
