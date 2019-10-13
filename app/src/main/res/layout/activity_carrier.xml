@@ -40,7 +40,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="Deuter Fox 40 L Rp.2.000.000*"
+                            android:text="Deuter Fox 40 L Rp.5.500.000*"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="18sp" />

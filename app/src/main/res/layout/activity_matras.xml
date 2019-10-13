@@ -40,7 +40,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="Klymit V Luxe Rp.550.000*"
+                            android:text="Klymit V Luxe Rp.750.000*"
                             android:textAlignment="center"
                             android:textColor="#FD000000"
                             android:textSize="18sp" />

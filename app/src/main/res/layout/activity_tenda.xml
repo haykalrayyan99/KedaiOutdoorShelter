@@ -46,7 +46,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="Eiger Pavillo Rp.750.000*"
+                            android:text="Eiger Pavillo Rp.1.750.000*"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="18sp" />
@@ -79,7 +79,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="Consina Magnum Rp.945.000*"
+                            android:text="Consina Magnum Rp1.150.000*"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="18sp" />
