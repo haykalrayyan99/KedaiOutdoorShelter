@@ -31,7 +31,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView"
+                        android:id="@+id/tenda_eiger"
                         android:layout_width="match_parent"
                         android:layout_height="350dp"
                         app:srcCompat="@drawable/eiger_tenda" />
@@ -46,7 +46,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="Eiger Pavillo Rp.750.000.00"
+                            android:text="Eiger Pavillo Rp.750.000*"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="18sp" />
@@ -64,7 +64,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView3"
+                        android:id="@+id/tenda_consina"
                         android:layout_width="match_parent"
                         android:layout_height="350dp"
                         app:srcCompat="@drawable/tenda_consina" />
@@ -79,7 +79,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="Consina Magnum Rp.945.000.00"
+                            android:text="Consina Magnum Rp.945.000*"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="18sp" />
@@ -97,7 +97,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/tenda_rei"
                         android:layout_width="match_parent"
                         android:layout_height="350dp"
                         app:srcCompat="@drawable/tenda_rei" />
@@ -112,7 +112,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="Rei M29/T001 Rp.950.000.00"
+                            android:text="Rei M29/T001 Rp.950.000*"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="18sp" />
