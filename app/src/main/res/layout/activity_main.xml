@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/rayyan"
     tools:context=".MainActivity">
 
     <Button
@@ -106,7 +106,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:fontFamily="sans-serif-black"
-        android:text="MENU SEWA"
+        android:text="MENU BARANG"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="14sp"
@@ -140,14 +140,5 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toBottomOf="@+id/Sewa_Sleeping" />
-
-    <androidx.constraintlayout.widget.Group
-        android:id="@+id/group2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
