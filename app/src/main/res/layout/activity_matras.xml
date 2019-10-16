@@ -25,6 +25,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:onClick="healderMatras"
                         android:id="@+id/matras_klymit"
                         android:layout_width="match_parent"
                         android:layout_height="350dp"

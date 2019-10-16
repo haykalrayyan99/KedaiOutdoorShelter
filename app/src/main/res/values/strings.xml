@@ -5,4 +5,7 @@
 
     <string name="merek_Carrier">Deuter Fox 40 L</string>
     <string name="harga_carrier">Rp.5.500.000*</string>
+
+    <string name="merek_Matras">Klymit V Luxe</string>
+    <string name="harga_Matras">Rp.750.000*</string>
 </resources>
