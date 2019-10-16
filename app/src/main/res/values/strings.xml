@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Kedai Outdoor Shelter</string>
+    <string name="merek_Tenda">Eiger Pavillo</string>
+    <string name="harga_Tenda">Rp.1.750.000*</string>
+
+    <string name="merek_Carrier">Deuter Fox 40 L</string>
+    <string name="harga_carrier">Rp.5.500.000*</string>
 </resources>

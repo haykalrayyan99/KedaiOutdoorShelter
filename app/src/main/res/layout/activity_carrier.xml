@@ -25,6 +25,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:onClick="healderDeuter"
                         android:id="@+id/carrier_deuter"
                         android:layout_width="match_parent"
                         android:layout_height="350dp"
