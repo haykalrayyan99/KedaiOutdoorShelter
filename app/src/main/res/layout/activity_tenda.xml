@@ -65,6 +65,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:onClick="healderConsina"
                         android:id="@+id/tenda_consina"
                         android:layout_width="match_parent"
                         android:layout_height="350dp"

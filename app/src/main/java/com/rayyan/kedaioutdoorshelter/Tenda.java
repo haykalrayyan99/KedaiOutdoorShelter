@@ -22,4 +22,10 @@ public class Tenda extends AppCompatActivity {
         Intent intent = new Intent(this, TendaEiger.class);
         startActivity(intent);
     }
+
+    public void healderConsina(View view) {
+
+        Intent intent = new Intent(this, tendaConsina.class);
+        startActivity(intent);
+    }
 }

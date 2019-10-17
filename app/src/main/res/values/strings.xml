@@ -11,4 +11,7 @@
 
     <string name="merek_Kamui">KAMUI</string>
     <string name="harga_Kamui">Rp.1.400.000*</string>
+
+    <string name="merek_Consina">CONSINA MAGNUM</string>
+    <string name="harga_Consia">Rp.1.150.000*</string>
 </resources>

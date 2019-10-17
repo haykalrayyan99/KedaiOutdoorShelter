@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".kamui"></activity>
+        <activity android:name=".tendaConsina"></activity>
+        <activity android:name=".kamui" />
         <activity android:name=".matrasKlymit" />
         <activity android:name=".CarrierDeuter" />
         <activity android:name=".TendaEiger" />
