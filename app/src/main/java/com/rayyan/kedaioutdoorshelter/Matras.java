@@ -18,4 +18,14 @@ public class Matras extends AppCompatActivity {
         Intent intent = new Intent(this, matrasKlymit.class);
         startActivity(intent);
     }
+
+    public void healderNaturehike(View view) {
+        Intent intent = new Intent(this, matrasNaturehike.class);
+        startActivity(intent);
+    }
+
+    public void healderconsina(View view) {
+        Intent intent = new Intent(this, matrasConsina.class);
+        startActivity(intent);
+    }
 }
