@@ -99,6 +99,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:onClick="healderRei"
                         android:id="@+id/tenda_rei"
                         android:layout_width="match_parent"
                         android:layout_height="350dp"

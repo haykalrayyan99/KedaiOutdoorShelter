@@ -28,4 +28,9 @@ public class Tenda extends AppCompatActivity {
         Intent intent = new Intent(this, tendaConsina.class);
         startActivity(intent);
     }
+
+    public void healderRei(View view) {
+        Intent intent = new Intent(this, tendaRei.class);
+        startActivity(intent);
+    }
 }
