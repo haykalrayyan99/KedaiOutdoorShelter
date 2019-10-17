@@ -18,4 +18,14 @@ public class SleepingBag extends AppCompatActivity {
         Intent intent = new Intent(this, kamui.class);
         startActivity(intent);
     }
+
+    public void healderNeuva(View view) {
+        Intent intent = new Intent(this, SleepNeuva.class);
+        startActivity(intent);
+    }
+
+    public void healderNaturehike(View view) {
+        Intent intent = new Intent(this, sleepNaturehike.class);
+        startActivity(intent);
+    }
 }

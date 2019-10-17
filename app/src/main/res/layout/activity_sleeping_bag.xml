@@ -59,6 +59,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:onClick="healderNeuva"
                         android:id="@+id/sleep_nueva_army"
                         android:layout_width="match_parent"
                         android:layout_height="350dp"
@@ -92,6 +93,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:onClick="healderNaturehike"
                         android:id="@+id/sleep_naturehike"
                         android:layout_width="match_parent"
                         android:layout_height="350dp"
