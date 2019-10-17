@@ -20,4 +20,7 @@
 
     <string name="merek_osprey">OSPREY ATMOS AG 50 L</string>
     <string name="harga_osprey">Rp.4.500.000*</string>
+
+    <string name="merek_eiger">EIGER 3906 EQUATOR</string>
+    <string name="harga_eiger">Rp.2.250.000*</string>
 </resources>

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".carrierOsprey"></activity>
+        <activity android:name=".carrierEiger"></activity>
+        <activity android:name=".carrierOsprey" />
         <activity android:name=".tendaRei" />
         <activity android:name=".tendaConsina" />
         <activity android:name=".kamui" />
