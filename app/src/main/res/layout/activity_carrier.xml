@@ -59,6 +59,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:onClick="healderOsprey"
                         android:id="@+id/carrier_osprey"
                         android:layout_width="match_parent"
                         android:layout_height="350dp"

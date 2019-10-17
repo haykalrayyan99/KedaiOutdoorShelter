@@ -17,4 +17,7 @@
 
     <string name="merek_rei">REI M29/T001</string>
     <string name="harga_rei">Rp.950.000*</string>
+
+    <string name="merek_osprey">OSPREY ATMOS AG 50 L</string>
+    <string name="harga_osprey">Rp.4.500.000*</string>
 </resources>

@@ -18,4 +18,9 @@ public class Carrier extends AppCompatActivity {
         Intent intent = new Intent(this, CarrierDeuter.class);
         startActivity(intent);
     }
+
+    public void healderOsprey(View view) {
+        Intent intent = new Intent(this, carrierOsprey.class);
+        startActivity(intent);
+    }
 }
