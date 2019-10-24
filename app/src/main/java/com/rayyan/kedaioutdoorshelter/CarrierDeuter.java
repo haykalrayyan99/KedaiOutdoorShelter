@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class CarrierDeuter extends AppCompatActivity {
 
@@ -31,10 +32,15 @@ public class CarrierDeuter extends AppCompatActivity {
         String name = nameInput.getText().toString();
         String x = merek1.getText().toString();
         String z = harga1.getText().toString();
+        if (!name.equals("")) {
+            outputText.setText("Nama Pembeli : "+ name);
+            outputText1.setText("Merek : " + x);
+            outputText2.setText("Harga : " + z);
+        } else {
+            Toast.makeText(this, "Masukkan Nama Anda!", Toast.LENGTH_SHORT).show();
+        }
 
-        outputText.setText("Nama Pembeli : "+ name);
-        outputText1.setText("Merek : " + x);
-        outputText2.setText("Harga : " + z);
+        
     }
 }
 

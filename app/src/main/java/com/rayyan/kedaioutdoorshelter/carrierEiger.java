@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class carrierEiger extends AppCompatActivity {
 
@@ -31,9 +32,12 @@ public class carrierEiger extends AppCompatActivity {
         String name = nameInput.getText().toString();
         String x = merek7.getText().toString();
         String z = harga7.getText().toString();
-
-        outputText.setText("Nama Pembeli : "+ name);
-        outputText1.setText("Merek : " + x);
-        outputText2.setText("Harga : " + z);
+        if (!name.equals("")) {
+            outputText.setText("Nama Pembeli : "+ name);
+            outputText1.setText("Merek : " + x);
+            outputText2.setText("Harga : " + z);
+        }else {
+            Toast.makeText(this, "Masukkan Nama Anda!", Toast.LENGTH_SHORT).show();
+        }
     }
 }
